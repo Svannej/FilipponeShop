@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dario Filippone OFFICIAL SHOP</title>
+    
+    
+    <style>
+    
+    
+        body {
+        
+        	background-image: url(https://m.media-amazon.com/images/I/71Lwh2UabtL._AC_SY200_QL15_.jpg);
+        	background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            
+            
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+
+
+	#slideshow-container {
+            max-width: 850px;
+            overflow: hidden;
+			border: 20px solid #000000;
+            border-radius: 50px;
+        }
+
+        .mySlides {
+            display: none;
+            width: 100%;
+            height: 80vh;
+            background-repeat: no-repeat;
+            background-position: center;
+        	background-size: 400px;
+            
+        }
+
+        .content {
+            text-align: center;
+        }
+
+        h1 {
+            color: #333;
+            outline: auto;
+            background-color: #4CAF50;
+        }
+
+
+        #buy-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            text-decoration: none;
+            border: 2px solid #000000;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        #buy-button:hover {
+            background-color: #45a049;
+        }
+        
+        
+        .textbox {
+            width: auto;
+            padding: 10px;
+            font-size: 16px;
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            background-color: #e6f7ff;
+            
+        }      
+        
+    </style>
+</head>
+
+<body>
+    <h1>Dario Filippone OFFICIAL SHOP</h1>
+
+<div id="slideshow-container">
+        <div class="mySlides" style="background-image: url(https://media.discordapp.net/attachments/1108113191009001563/1183507353199460404/4313be77-9dfd-4594-84b5-5cec16b20f96.jpg?ex=6588961d&is=6576211d&hm=c9611a4b206f6a8cd2655ee40a328ed98fbd2e938524e8a6a1b6152f851c8b73&=&format=webp&width=415&height=553);"></div>
+        <div class="mySlides" style="background-image: url(https://scontent.fmxp6-1.fna.fbcdn.net/v/t1.18169-9/12289523_1660993364181277_7219309990780637896_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=2be8e3&_nc_ohc=kE2F4EBWsLUAX-pdqyo&_nc_ht=scontent.fmxp6-1.fna&oh=00_AfBkVUP64DOIThuiqGLHLd9LBJo6uPZu0w4VOg3YbpNmQw&oe=659D86F7);"></div>
+        <div class="mySlides" style="background-image: url(https://scontent.fmxp6-1.fna.fbcdn.net/v/t1.18169-9/10410130_1505806099700005_2493740113153347020_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=908e45&_nc_ohc=wR63tQ-r6-YAX-oTbz0&_nc_ht=scontent.fmxp6-1.fna&oh=00_AfBleE_Gmr3TfCcBzhC4ueJ6glQazoYIKJoOUT5PyCrJOg&oe=659D86A2);"></div>
+        <!-- Aggiungi altre immagini come necessario -->
+    </div>
+
+    <!-- Controlli per lo slideshow -->
+    <button onclick="plusSlides(-1)">Indietro</button>
+    <button onclick="plusSlides(1)">Avanti</button>
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+
+            if (n > slides.length) {
+                slideIndex = 1;
+            }
+
+            if (n < 1) {
+                slideIndex = slides.length;
+            }
+
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+
+            slides[slideIndex - 1].style.display = "block";
+        }
+    </script>
+
+    <!-- Contenuto della pagina -->
+    <div class="content">
+
+    <p>Un Filippone Dario direttamente a casa tua. Manutentore tuttofare/cuoco/Tutte cose.</p>
+
+    <a id="buy-button" href=https://paypal.me/GiovanniAlioto?country.x=IT&locale.x=it_IT>Acquista ora</a>
+    
+    <input class="textbox" type="text" value="TUO A SOLI €0,20!!" readonly>
+    
+</body>
+</html>
